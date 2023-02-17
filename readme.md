@@ -8,8 +8,8 @@
 
 |       Key        |               Value                |
 | :--------------: | :--------------------------------: |
-| OpenCore version |               0.8.8                |
-|  MacOS version   |            13.2 (22D49)            |
+| OpenCore version |               0.8.9                |
+|  MacOS version   |       Ventura 13.2.1 (22D68)       |
 |   机型开箱参考   | https://post.smzdm.com/p/ax0q7vld/ |
 
 开机界面示例：
@@ -121,7 +121,12 @@
 |    Dp    | ![iShot_2023-02-07_20.09.53](./assets/iShot_2023-02-07_20.09.53.webp) |
 |  Kernel  | ![iShot_2023-02-07_20.09.44](./assets/iShot_2023-02-07_20.09.44.webp) |
 
+## 更新日志
 
+### 2023-02-17 更新 OC 到 0.8.9 
+
+- 更新 OC 到 0.8.9
+- 更新显卡驱动
 
 ## 参考
 
