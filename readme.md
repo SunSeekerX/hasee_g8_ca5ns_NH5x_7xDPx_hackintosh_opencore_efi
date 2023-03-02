@@ -8,7 +8,7 @@
 
 |       Key        |               Value                |
 | :--------------: | :--------------------------------: |
-| OpenCore version |               0.8.9                |
+| OpenCore version |            0.8.9 - Mod             |
 |  MacOS version   |       Ventura 13.2.1 (22D68)       |
 |   机型开箱参考   | https://post.smzdm.com/p/ax0q7vld/ |
 
@@ -29,6 +29,7 @@
 - 记得换三码，里面没有自带的
 - 不要换机型，否则 usb 接口无法使用，需要替换 USBPorts.kext 内 plist 的机型值，你会写代码的话很简单打开改下两个地方就行
 - 已经用来写了几天的代码，没啥问题。能开发，这个项目也是在 mac 下系统下传上来的
+- Mod 版本的 oc 更新地址：[https://bbs.pcbeta.com/viewthread-1838814-1-1.html](https://bbs.pcbeta.com/viewthread-1838814-1-1.html)
 
 ## 硬件
 
@@ -122,6 +123,10 @@
 |  Kernel  | ![iShot_2023-02-07_20.09.44](./assets/iShot_2023-02-07_20.09.44.webp) |
 
 ## 更新日志
+
+### 2023-03-03
+
+- 尝试使用 mod 版本的 oc
 
 ### 2023-02-23
 
