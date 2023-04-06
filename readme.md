@@ -8,8 +8,8 @@
 
 |       Key        |               Value                |
 | :--------------: | :--------------------------------: |
-| OpenCore version |            0.8.9 - Mod             |
-|  MacOS version   |       Ventura 13.2.1 (22D68)       |
+| OpenCore version |            0.9.0 - Mod             |
+|  MacOS version   |       Ventura 13.3 (22E252)        |
 |   机型开箱参考   | https://post.smzdm.com/p/ax0q7vld/ |
 
 开机界面示例：
@@ -24,8 +24,7 @@
 
 ## 安装说明
 
-- **音频和网卡驱动不要用 ocat 之类的工具进行更新**
-- **wifi 需要使用 HeliPort 进行链接，AirportItlwm 需要等待作者更新，目前在 13.2 系统开机需要等好久才能链接到 wifi。**
+- **wifi 需要使用 HeliPort 进行链接，AirportItlwm 需要等待作者更新，目前在 13.3 系统开机需要等好久才能链接到 wifi。**
 - 记得换三码，里面没有自带的
 - 不要换机型，否则 usb 接口无法使用，需要替换 USBPorts.kext 内 plist 的机型值，你会写代码的话很简单打开改下两个地方就行
 - 已经用来写了几天的代码，没啥问题。能开发，这个项目也是在 mac 下系统下传上来的
@@ -63,6 +62,8 @@
 - ~~声卡驱动不完美，声卡型号在支持的列表内，但是尝试更换了布局 id，都存在只能同时驱动一个的问题，也就是自带的麦克风和扬声器同时只有一个能工作。暂时不知道怎么解决~~
 
   ~~个人看法：这个是厄待解决的一个问题，如果作为生产力，有时候会议的时候需要用到，目前只能蓝牙耳机解决~~
+
+  提交的 pr 已经被合并到 applealc 项目内，地址：[https://github.com/acidanthera/AppleALC/pull/837](https://github.com/acidanthera/AppleALC/pull/837)
 
   **已经解决**
 
@@ -123,6 +124,10 @@
 |  Kernel  | ![iShot_2023-02-07_20.09.44](./assets/iShot_2023-02-07_20.09.44.webp) |
 
 ## 更新日志
+
+### 2023-04-06
+
+- 更新到 oc 0.9.0
 
 ### 2023-03-03
 
