@@ -1148,7 +1148,7 @@
                 <key>InitialMode</key>
                 <string>Text</string>
                 <key>ProvideConsoleGop</key>
-                <true/>
+                <false/>
                 <key>ReconnectGraphicsOnConnect</key>
                 <false/>
                 <key>ReconnectOnResChange</key>
